@@ -1,0 +1,6 @@
+bucket         = "CHANGE-ME-tfstate-111111111111"
+key            = "arrise/account-b/terraform.tfstate"
+region         = "ap-south-1"
+dynamodb_table = "arrise-terraform-locks"
+use_lockfile   = true
+encrypt        = true

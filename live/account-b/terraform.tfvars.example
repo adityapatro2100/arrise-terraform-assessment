@@ -1,0 +1,3 @@
+region             = "ap-south-1"
+account_a_id       = "000000000000" # Replace with actual Account A ID before apply
+role_c_bucket_name = "arrise-assessment-rolec-111111111111" # Use unique name in real account

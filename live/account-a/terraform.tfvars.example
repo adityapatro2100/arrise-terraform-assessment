@@ -1,0 +1,13 @@
+region                   = "ap-south-1"
+account_a_id             = "000000000000" # Replace with actual Account A ID before apply
+account_b_id             = "111111111111" # Replace with actual Account B ID before apply
+console_password_pgp_key = "keybase:REPLACE_WITH_YOUR_PUBLIC_PGP_KEY"
+
+# CI target infrastructure must already exist and be owned by Account A.
+ecr_repository_name    = "arrise-ci-app"
+ecs_cluster_name       = "arrise-app-cluster"
+ecs_service_name       = "arrise-app-service"
+ecs_task_family        = "arrise-ci-app"
+ecs_task_role_arn      = "arn:aws:iam::000000000000:role/arrise-app-task-role"
+ecs_execution_role_arn = "arn:aws:iam::000000000000:role/arrise-app-execution-role"
+artifact_bucket_name   = "arrise-ci-artifacts-000000000000"
